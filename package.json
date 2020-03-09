@@ -1,0 +1,19 @@
+{
+  "name": "ts-transform-test",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode development"
+  },
+  "dependencies": {
+    "ts-transformer-json-schema": "^0.6.12"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "ttypescript": "^1.5.10",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
